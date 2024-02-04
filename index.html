@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio by kalhara</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/4eaa07d4f3.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="logo.png" class="logo">
+                    <ul id =   "sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>   
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>          
+                </nav>
+                <div class="header-text">
+                    <p>Software Engineer Undergraduate</p>
+                    <h1>Hi, I am<br><span> Nuwanandun<br> Kalhara</h1></span> From <br> Sri Lanka</h1>
+                </div>
+            </div>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-1">
+                        <img  src = "user.jpg">
+                    </div>
+                    <div class="about-2">
+                      <h1 class = "subtitle"> About me</h1>
+                      <p>I'm Kalhara, a second-year software engineering student with a passion for coding, UX/UI design, and app development. I thrive on turning innovative ideas into functional and user-friendly software solutions</p>
+                      <div class="tabtitles">
+                      <p class="tablinks activelink" onclick="opentab('skills')">Skills</p>
+                      <p class="tablinks" onclick="opentab('exp')">Experience</p>
+                      <p class="tablinks" onclick="opentab('edu')">Education</p>
+                    </div>
+                    <div class="tabcontents active" id="skills">
+                        <ul>
+                            <li>
+                                <span>
+                                    Master coding
+                                </span>
+                                <p class = "kkk">Creating software projects</p>
+                            </li>
+                            <li>
+                                <span>
+                                    Web Development
+                                </span>
+                                <p class = "kkk"> Creating software projects</p>
+                            </li>
+                            <li>
+                                <span>
+                                    UI UX designer 
+                                </span>
+                                <p class = "kkk"> Design Websites</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="exp">
+                        <ul>
+                            <li>
+                                <span>
+                                    Data Entry Operator
+                                </span>
+                                <p class = "kkk">2022-2023 Buddhist and pali University Sri Lanka</p>
+                            </li>
+                            <li>
+                                <span>
+                                   SE Undergraduate
+                                </span>
+                                <p class = "kkk"> 2nd year Undergraduate of KDU</p>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="edu">
+                        <ul>
+                            <li>
+                                <span>
+                                    University
+                                </span>
+                                <p class = "kkk">Kotelawala Defence University</p>
+                            </li>
+                            <li>
+                                <span>
+                                    School
+                                </span>
+                                <p class = "kkk"> D S Senanayake College Colombo 07</p>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="services">
+            <div class="container">
+                <h1 class = "subtitle">My Services</h1>
+                <div class="serviceslist">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designer</h2>
+                    <p>I can create websites with the help of the html, css and javascript languages according to the way you prefer.</p>
+                    <a href ="#"> learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX designer</h2>
+                    <p>I am a UI/UX designer dedicated to crafting visually compelling and user-centric digital experiences that seamlessly blend aesthetic appeal with intuitive functionality.</p>
+                    <a href ="#"> learn more</a>
+                </div>  
+                <div>
+                    <i class="fa-brands fa-uncharted"></i>
+                    <h2>Software Developer</h2>
+                    <p>I am a dedicated software developer, committed to crafting efficient and innovative solutions that elevate user experiences and meet the unique needs of clients with precision and expertise.</p>
+                    <a href ="#"> learn more</a>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class = "subtitle"> My work</h1>
+                <div class="worklist">
+                    <div class="work">
+                        <img src ="1.jpg">
+                        <div class="layer">
+                                <h3>Coding</h3>
+                                <p>I have a proven track record of delivering robust and innovative coding solutions as a software developer, demonstrating proficiency in creating efficient and scalable applications</p>
+                                <a href="#">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                    </div>
+                    <div class="work">
+                        <img src ="2.jpg">
+                        <div class="layer">
+                            <h3>Software Creator</h3>
+                            <p>I have a proven track record of delivering robust and innovative coding solutions as a software developer, demonstrating proficiency in creating efficient and scalable applications</p>
+                            <a href="#">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src ="samsung-phone-headphones-smartphone.jpg">
+                        <div class="layer">
+                            <h3>Mobile App Developer</h3>
+                            <p>I have developed a mobile app that streamlines creative workflows, empowering software developers by providing efficient tools for seamless project creation and management</p>
+                            <a href="#">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <a href ="#" class="btn">See more</a>
+            </div>
+        </div>
+
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contactleft">
+                <h1 class = "subtitle">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>kalharanuwan8@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+94776624286</p>
+                <div class="socialicons">
+                    <a href="https://www.facebook.com/profile.php?id=100009007545225"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/kalhara._nuwan?igsh=MzNlNGNkZWQ4Mg=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="http://www.linkedin.com/in/nuwanandun-kalhara-71858a2a6"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contactright">
+                <form name = "submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Kalhara_Nuwan<i class="fa-regular fa-heart"></i> property</p>
+    </div>
+</div>
+
+
+
+        <script>
+            var tablinks = document.getElementsByClassName("tablinks");
+            var tabcontents = document.getElementsByClassName("tabcontents");
+        
+            function opentab(tabname) {
+                for (var i = 0; i < tablinks.length; i++) {
+                    tablinks[i].classList.remove("activelink");
+                }
+                for (var i = 0; i < tabcontents.length; i++) {
+                    tabcontents[i].classList.remove("active");
+                }
+        
+                var selectedTab = document.getElementById(tabname);
+                selectedTab.classList.add("active");
+        
+                var clickedTab = event.target;
+                clickedTab.classList.add("activelink");
+            }
+       
+            var sidemeu = document.getElementById("sidemenu");
+        
+            function openmenu() {
+                sidemeu.style.right = "0";
+            }
+        
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyzK7BVmMauyBDMATPZMdP8a4xpd4aP5VXSrNCg57Ok2UCjEuajby0C8Zna-qEHoo5-/exec'
+            const form = document.forms['submit-to-google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+        
+    </body>
+</html>
